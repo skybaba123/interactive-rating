@@ -1,0 +1,92 @@
+.container {
+  background-color: hsl(213, 19%, 18%);
+  height: auto;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  border-radius: 20px;
+}
+
+.imageDiv {
+  height: 60px;
+  width: 60px;
+  background-color: hsl(212, 13%, 25%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container h1 {
+  color: white;
+  font-weight: 600;
+  margin-bottom: -0.5rem;
+}
+
+.container p {
+  color: hsl(210, 5%, 41%);
+  font-size: larger;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.btnDiv {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.btnDiv button {
+  background-color: hsl(212, 13%, 25%);
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-weight: 600;
+  font-size: larger;
+  color: hsl(240, 1%, 77%);
+  cursor: pointer;
+}
+
+.btnDiv button:hover {
+  background-color: hsl(225, 5%, 46%);
+  color: #fff;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+
+.submit button {
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 600;
+  font-size: larger;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+.submit button:hover {
+  color: hsl(25, 97%, 53%);
+  background-color: #fff;
+}
+
+@media only screen and (max-width: 490px) {
+  .container {
+    width: 75%;
+  }
+
+  .btnDiv button {
+    height: 45px;
+    width: 45px;
+  }
+}

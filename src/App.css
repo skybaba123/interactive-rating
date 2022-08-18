@@ -1,0 +1,10 @@
+* {
+  color: rgb(112, 112, 109);
+}
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
